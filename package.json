@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/stats-base-dists-levy-pdf",
+  "version": "0.0.0",
+  "description": "Lévy distribution probability density function (PDF).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-dists-levy-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "distribution",
+    "dist",
+    "probability",
+    "pdf",
+    "levy",
+    "univariate",
+    "continuous"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
