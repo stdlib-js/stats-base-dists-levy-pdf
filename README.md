@@ -65,13 +65,13 @@ where `μ` is the location parameter and `c > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@deno/mod.js';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.1.0-deno/mod.js';
 ```
 
 #### pdf( x, mu, c )
@@ -136,7 +136,7 @@ y = mypdf( 20.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@deno/mod.js';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.1.0-deno/mod.js';
 
 var mu;
 var c;
