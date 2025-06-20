@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`27a0d50`](https://github.com/stdlib-js/stdlib/commit/27a0d5068f072e84bc99470744da5b55714d21a4) - **test:** fix missing `opts` argument _(by Athan Reines)_
 -   [`36e56bb`](https://github.com/stdlib-js/stdlib/commit/36e56bb67d7299d6a44ba5e9acf76a671ac8b563) - **feat:** add C implementation for `stats/base/dists/levy/pdf` [(#4918)](https://github.com/stdlib-js/stdlib/pull/4918) _(by Nishchay Rajput, Philipp Burckhardt)_
 -   [`73050cb`](https://github.com/stdlib-js/stdlib/commit/73050cb11de45fd04b8e59c5df8ef30f891dba07) - **bench:** refactor random number generation in `stats/base/dists/levy` [(#6044)](https://github.com/stdlib-js/stdlib/pull/6044) _(by Hemant M Mehta, Athan Reines)_
 
