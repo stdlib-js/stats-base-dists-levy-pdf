@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-21)
+## Unreleased (2025-06-22)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`3cf6f11`](https://github.com/stdlib-js/stdlib/commit/3cf6f1197da802f472735e132e8994bda4ae364c) - **docs:** update `stats/base/dists/levy` examples to use Greek symbols _(by Philipp Burckhardt)_
 -   [`2355e5d`](https://github.com/stdlib-js/stdlib/commit/2355e5d18ee7962e028a732ac76026a512f35f23) - **docs:** add missing periods _(by Philipp Burckhardt)_
 -   [`27a0d50`](https://github.com/stdlib-js/stdlib/commit/27a0d5068f072e84bc99470744da5b55714d21a4) - **test:** fix missing `opts` argument _(by Athan Reines)_
 -   [`36e56bb`](https://github.com/stdlib-js/stdlib/commit/36e56bb67d7299d6a44ba5e9acf76a671ac8b563) - **feat:** add C implementation for `stats/base/dists/levy/pdf` [(#4918)](https://github.com/stdlib-js/stdlib/pull/4918) _(by Nishchay Rajput, Philipp Burckhardt)_
