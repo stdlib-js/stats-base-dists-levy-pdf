@@ -65,13 +65,18 @@ where `μ` is the location parameter and `c > 0` is the scale parameter.
 ## Usage
 
 ```javascript
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-levy-pdf/tags). For example,
+
+```javascript
 import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.3.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@esm/index.mjs';
 ```
 
 #### pdf( x, mu, c )
@@ -141,7 +146,7 @@ y = mypdf( 20.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.3.0-esm/index.mjs';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@esm/index.mjs';
 
 var mu;
 var c;
