@@ -65,13 +65,18 @@ where `μ` is the location parameter and `c > 0` is the scale parameter.
 ## Usage
 
 ```javascript
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-levy-pdf/tags). For example,
+
+```javascript
 import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.3.1-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@deno/mod.js';
 ```
 
 #### pdf( x, mu, c )
@@ -136,7 +141,7 @@ y = mypdf( 20.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@v0.3.1-deno/mod.js';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-levy-pdf@deno/mod.js';
 
 var mu;
 var c;
